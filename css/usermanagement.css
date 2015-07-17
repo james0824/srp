@@ -1,5 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
+
+body {
+	font-family: "Microsoft YaHei"; }
+	
 .container {
 	margin: auto;
 	width: 1440px;
@@ -24,6 +27,12 @@
 	top: 70px;
 	cursor: pointer; }
 
+.quit:hover {
+	color: grey; }
+
+.menu .usermanage {
+	color: black; }
+
 .menu {
 	width: 200px; }
 	
@@ -31,13 +40,44 @@
 	list-style-type: none; }
 
 .menu li {
-	margin: -16px 0 0 -40px;
+	color: grey;
+	margin: 0 0 0 -40px;
 	width: 200px;
 	height: 70px;
 	line-height: 70px;
-	background-color:#5ee5f5;
+	background-color: white;
 	text-align: center;
 	cursor: pointer; }
 
 .menu li:hover {
-	background-color: #5DB5FD; }
+	color: black; }
+	
+.lline {
+	height: 1px;
+	width: 80%;
+	background-color: #CFCFCF;
+	position: relative; }
+
+.vline {
+	height: 561px;
+	width: 1px;
+	background-color: #CFCFCF;
+	position: relative;
+	top: -561px;
+	left: 200px; }
+
+.detail {
+	width: 1239px;
+	position: relative;
+	top: -1124px;
+	left: 201px; }
+
+.search {
+	position: relative;
+	top: 50px;
+	left: 150px;
+	width: 1239px; }
+
+.search input {
+	margin: 0 10px 0 0; }
+
