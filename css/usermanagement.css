@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	margin: auto;
+	width: 1440px;
+	height: 100%; }
+	
+.head {
+	width: 100%;
+	height: 100px;
+	background-image: url(../img/head.jpg);
+	background-repeat: no-repeat; }
+
+.username {
+	color: white;
+	position: relative;
+	left:1280px;
+	top: 70px; }
+
+.quit {
+	color: white;
+	position: relative;
+	left: 1280px;
+	top: 70px;
+	cursor: pointer; }
+
+.menu {
+	width: 200px; }
+	
+.menu ul {
+	list-style-type: none; }
+
+.menu li {
+	margin: -16px 0 0 -40px;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	background-color:#5ee5f5;
+	text-align: center;
+	cursor: pointer; }
+
+.menu li:hover {
+	background-color: #5DB5FD; }
