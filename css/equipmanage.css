@@ -30,7 +30,7 @@ body {
 .quit:hover {
 	color: grey; }
 
-.menu .usermanage {
+.menu .equipmanage {
 	color: black; }
 
 .menu {
@@ -69,7 +69,7 @@ body {
 .detail {
 	width: 1239px;
 	position: relative;
-	top: -1124px;
+	top: -1224px;
 	left: 201px; }
 
 .search {
@@ -78,10 +78,7 @@ body {
 	left: 150px;
 	width: 1239px; }
 
-.search input {
-	margin: 0 10px 0 0; }
-
-.usercont {
+.equipcont {
 	width: 1000px;
 	position: relative;
 	left: 150px;
@@ -92,11 +89,18 @@ body {
 
 .tbhead th {
 	border-bottom: #CCC solid 1px; }
-
+	
 .delete {
 	color: #0aa7ee;
 	cursor: pointer; }
 
 .delete:hover {
+	color: #b0e2f9; } 
+
+.set {
+	color: #0aa7ee;
+	cursor: pointer; }
+
+.set:hover {
 	color: #b0e2f9; } 
 
