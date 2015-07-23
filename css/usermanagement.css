@@ -93,6 +93,10 @@ body {
 .tbhead th {
 	border-bottom: #CCC solid 1px; }
 
+.table td {
+	text-align: center;
+	border-bottom: #CCC solid 1px; }
+
 .delete {
 	color: #0aa7ee;
 	cursor: pointer; }

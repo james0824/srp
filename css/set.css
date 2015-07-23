@@ -72,38 +72,41 @@ body {
 	top: -1124px;
 	left: 201px; }
 
-.search {
-	position: relative;
-	top: 50px;
-	left: 150px;
-	width: 1239px; }
+.row {
+	width: 800px; }
 
-.equipcont {
-	width: 1000px;
+.statusleft {
+	width: 100px;
 	position: relative;
+	top: 100px;
 	left: 150px; }
 
-.tbhead {
-	width: 1000px; }
+.statusright {
+	position: relative;
+	top: 80px;
+	left: 250px;
+	width: 700px; }
 
-.tbhead th {
-	border-bottom: #CCC solid 1px; }
+.img {
+	width: 100px;
+	height: 100px; }
 
-.table td {
-	text-align: center;
-	border-bottom: #CCC solid 1px; }
-	
-.delete {
-	color: #0aa7ee;
-	cursor: pointer; }
+.identity {
+	position: relative;
+	top: -85px;
+	left: 10px; }
 
-.delete:hover {
-	color: #b0e2f9; } 
+.systime {
+	position: relative;
+	top: -85px;
+	left: 300px; }
 
-.set {
-	color: #0aa7ee;
-	cursor: pointer; }
+.status {
+	display: inline-block;
+	width: 400px;
+	position: relative;
+	left: 115px; }
 
-.set:hover {
-	color: #b0e2f9; } 
-
+.temperature {
+	position: relative;
+	left: 195px; }
