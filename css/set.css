@@ -69,10 +69,10 @@ body {
 .detail {
 	width: 1239px;
 	position: relative;
-	top: -1124px;
+	top: -1155px;
 	left: 201px; }
 
-.row {
+.row1,.row2,.row3 {
 	width: 800px; }
 
 .statusleft {
@@ -81,9 +81,17 @@ body {
 	top: 100px;
 	left: 150px; }
 
+.dvline {
+	position: relative;
+	left: 225px;
+	top: 70px;
+	width: 1px;
+	height: 100px;
+	background-color: #cfcfcf; }
+
 .statusright {
 	position: relative;
-	top: 80px;
+	top: -20px;
 	left: 250px;
 	width: 700px; }
 
@@ -99,14 +107,199 @@ body {
 .systime {
 	position: relative;
 	top: -85px;
-	left: 300px; }
+	left: 340px; }
 
 .status {
 	display: inline-block;
-	width: 400px;
+	width: 450px;
 	position: relative;
 	left: 115px; }
 
 .temperature {
 	position: relative;
 	left: 195px; }
+
+.on {
+	font-weight: bold;
+	color: #2fb7f5; }
+
+.shutdown {
+	position: relative;
+	left: 20px;
+	height: 40px;
+	width: 50px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #2fb7f5;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px; }
+
+.dlline1 {
+	width: 700px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: relative;
+	left: 270px;
+	top: 0px; }
+
+.setleft {
+	position: relative;
+	left: 150px;
+	top: 70px; }
+
+.row2 .dvline {
+	position: relative;
+	left: 225px;
+	top: 50px;
+	width: 1px;
+	height: 100px;
+	background-color: #cfcfcf; }
+	
+
+.setright {
+	position: relative;
+	top: -50px;
+	left: 250px;
+	width: 700px; }
+
+.change {
+	position: relative;
+	left: 20px;
+	height: 40px;
+	width: 50px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #2fb7f5;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px; }
+
+.temcontrol {
+	position: relative;
+	top: 0;
+	left: 100px; }
+
+.temstatus {
+	position: relative;
+	top: 0;
+	left: 200px; }
+
+.time1 {
+	position: relative;
+	top: 40px;
+	left: -420px; }
+
+.upperlimit {
+	position: relative;
+	top: 10px;
+	left: 360px;
+	display: inline-block; }
+
+.intem {
+	position: relative;
+	top: 10px;
+	left: 425px; }
+	
+.outtem {
+	position: relative;
+	top: 10px;
+	left: 465px; }
+	
+.time2 {
+	position: relative;
+	top: 50px;
+	left: -350px; }
+	
+.lowerlimit {
+	position: relative;
+	top: 50px;
+	left: -180px;
+	display: inline-block; }
+	
+.gastem {
+	position: relative;
+	top: 30px;
+	left: 543px;
+	display: inline-block; }
+	
+.environmenttem {
+	position: relative;
+	top: 30px;
+	left: 583px; }
+	
+.time3 {
+	position: relative;
+	top: 70px;
+	left: -235px; }
+
+.dlline2 {
+	width: 700px;
+	height: 1px;
+	background-color: #cfcfcf;
+	position: relative;
+	left: 270px;
+	top: 60px; }
+	
+.historyleft {
+	position: relative;
+	top: 140px;
+	left: 150px; }
+
+.row3 .dvline {
+	position: relative;
+	left: 225px;
+	top: 115px;
+	width: 1px;
+	height: 100px;
+	background-color: #cfcfcf; }
+
+.upload {
+	position: relative;
+	top: 20px;
+	left: 250px;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #2fb7f5;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px; }
+
+.aboutultime {
+	position: relative;
+	top: 20px;
+	left: 290px; }
+	
+.startultime {
+	position: relative;
+	top: 20px;
+	left: 330px; }
+	
+.download {
+	position: relative;
+	top: 40px;
+	left: 250px;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #2fb7f5;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px; }
+	
+.endultime {
+	position: relative;
+	top: 40px;
+	left: 290px; }
+	
+.filestatus {
+	position: relative;
+	top: 40px;
+	left: 330px; }
